@@ -85,10 +85,13 @@ body {
     text-align: center;
 }
 
-.price-wrap{
+.price-wrap .blog-wrap{
     text-align: center;
 }
-.team-wrap{
+.blog-wrap{
+    text-align: center;
+}
+.team-wrap {
     text-align: center;
     background-color: white;
 }
@@ -120,4 +123,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px; 
+}
+ .faq-wrap{
+    text-align: center;
+    background-color: white;
 }
