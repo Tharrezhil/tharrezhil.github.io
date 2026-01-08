@@ -1,18 +1,20 @@
-body{
-    background-color: #fca311;
+body {
     font-family: "Poppins", sans-serif;
-    
+    background-color: #f9f9f9;
 }
-.navbar-expand-lg{
+
+.navbar-expand-lg {
     background-color: #fca311;
-    
+
 }
+
 .nav-center {
     margin: 0 auto;
-    gap:30px;
+    gap: 30px;
 }
-   .btm-wrap button {
-    background-color: #fca311;  
+
+.btm-wrap button {
+    background-color: #fca311;
     color: white;
     border: none;
     padding: 12px 26px;
@@ -25,13 +27,15 @@ body{
 }
 
 .btm-wrap button:hover {
-    background-color: #fca311;  
+    background-color: #fca311;
     box-shadow: 0 8px 20px rgba(255, 107, 129, 0.4);
     transform: translateY(-2px);
+
 }
-.button-wrap button{
-    background-color:white;  
-    color: #fca311;  
+
+.button-wrap button {
+    background-color: white;
+    color: #fca311;
     border: none;
     padding: 12px 26px;
     font-size: 15px;
@@ -40,15 +44,80 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.button-wrap .outline{
-    background-color:#fca311;  
+
+.button-wrap .outline {
+    background-color: #fca311;
     border: 1px solid #fff;
-    color:white;
+    color: white;
 
 }
-.row{
+
+.row {
     align-items: center;
 }
-.hero-wrap h1{
-    font-weight:700;
+
+.hero-wrap h1 {
+    font-weight: 700;
+}
+
+.hero-wrap {
+    background-color: #fca311;
+}
+
+.feature-wrap {
+    text-align: center;
+}
+
+.feature-wrap h1 {
+    font-weight: 400;
+}
+
+.card .card-body p {
+    color: rgb(77, 77, 77);
+}
+
+.card {
+    text-align: justify;
+}
+
+.stats-wrap {
+    background-color: #fca311;
+    text-align: center;
+}
+
+.price-wrap{
+    text-align: center;
+}
+.team-wrap{
+    text-align: center;
+    background-color: white;
+}
+.cta-wrap{
+    background-color: #fca311;
+    text-align: center;
+    
+}
+ .cta-wrap .button-wrap button {
+    background-color: white;
+    color: #fca311;
+    border: none;
+    padding: 12px 26px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-wrap .button-wrap .outline {
+    background-color: #fca311;
+    border: 1px solid #fff;
+    color: white;
+    
+
+}
+.cta-wrap .button-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
 }
